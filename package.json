@@ -1,0 +1,28 @@
+{
+  "name": "inno_b2b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "node ./dist/src/decisionTree.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustAnAlex/inno_b2b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustAnAlex/inno_b2b/issues"
+  },
+  "homepage": "https://github.com/JustAnAlex/inno_b2b#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
